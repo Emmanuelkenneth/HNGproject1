@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 900px;
+  width: 500px;
+
+  background-color: black;
+  color: white;
+}
+img {
+  border-radius: 50%;
+}
+p {
+  text-align: center;
+  width: 300px;
+  overflow-wrap: break-word;
+}
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 25px;
+  background-color: blue;
+}
+.profile-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#x-ixon {
+  background-color: white;
+}
+
+.icon {
+  font-size: 30px;
+}
+ul {
+  margin: 0;
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
